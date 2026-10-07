@@ -11,25 +11,26 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="assets/nalyvon-symbol.png" />
+  <link rel="icon" type="image/png" href="assets/brand/favicon.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+<a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
   <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="Nalyvon, início"><img src="assets/nalyvon-symbol.png" alt=""><span>NALYVON</span></a>
-    <nav aria-label="Navegação principal"><a href="#nalyvon">A Nalyvon</a><a href="#solucoes">Soluções</a><a href="#ecossistema">Ecossistema</a><a href="#processo">Como trabalhamos</a></nav>
+    <a class="brand" href="#inicio" aria-label="Nalyvon, início"><img class="brand-lockup" src="assets/brand/lockup.png" width="1480" height="320" alt="Nalyvon"></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button><nav id="navigation" aria-label="Navegação principal"><a href="#nalyvon">A Nalyvon</a><a href="#solucoes">Soluções</a><a href="#ecossistema">Ecossistema</a><a href="#processo">Como trabalhamos</a></nav>
     <a class="nav-cta" href="#contato">Falar com a Nalyvon</a>
   </header>
-  <main>
+  <main id="conteudo">
     <section class="hero" id="inicio">
       <div class="hero-copy">
         <p class="kicker">TECNOLOGIA EMPRESARIAL · SIMPLES POR FORA, SÓLIDA POR DENTRO</p>
         <h1>Complexidade não precisa virar <span>complicação.</span></h1>
-        <p class="hero-lead">A Nalyvon transforma desafios empresariais em soluções digitais claras, confiáveis e evolutivas — sem perder profundidade técnica no caminho.</p>
+        <p class="hero-lead">A Nalyvon é uma empresa de tecnologia focada em transformar problemas empresariais reais em soluções digitais simples, confiáveis e evolutivas.</p>
         <div class="hero-actions"><a class="button button-primary" href="#solucoes">Conhecer nossa abordagem</a><a class="button button-ghost" href="#ecossistema">Ver o ecossistema</a></div>
         <div class="hero-proof"><span>Problema antes da tecnologia</span><span>Qualidade sem excesso</span><span>Evolução com evidência</span></div>
       </div>
-      <div class="hero-mark"><div class="mark-orbit"></div><img src="assets/nalyvon-symbol.png" alt="Símbolo Nalyvon B3.1 — Força Fluida"></div>
+      <div class="hero-mark"><img src="assets/brand/symbol.png" alt="Símbolo oficial Nalyvon — Força Fluida"></div>
     </section>
 
     <section class="section intro" id="nalyvon">
@@ -56,16 +57,47 @@
     </section>
 
     <section class="section ecosystem" id="ecossistema">
-      <div><div class="section-label">ECOSSISTEMA NALYVON</div><h2>Uma empresa. Diferentes soluções. A mesma lógica.</h2><p>A Nalyvon é a empresa. Valhalla é o ecossistema onde soluções especializadas podem crescer sem limitar o futuro da marca.</p><div class="architecture"><div><b>NALYVON</b><span>empresa</span></div><i>→</i><div><b>VALHALLA</b><span>ecossistema</span></div><i>→</i><div><b>ODIN</b><span>CRM</span></div></div></div>
-      <article class="odin"><div class="odin-top"><span>PRIMEIRO PRODUTO COMERCIAL</span><span>● em evolução</span></div><h3>ODIN CRM</h3><p>Um CRM orientado à clareza operacional: clientes, oportunidades, pipeline, atividades, governança e rastreabilidade reunidos em uma base coerente.</p><div class="tags"><span>Multi-tenant</span><span>RBAC</span><span>Pipeline</span><span>Auditoria</span></div></article>
+      <div class="ecosystem-copy">
+        <div class="section-label">ECOSSISTEMA NALYVON</div>
+        <h2>Uma empresa. Diferentes soluções. A mesma lógica.</h2>
+        <p>A Nalyvon é a empresa. Valhalla é o ecossistema onde soluções especializadas podem crescer sem limitar o futuro da marca.</p>
+
+        <div class="architecture">
+          <div><strong>NALYVON</strong><span>empresa</span></div>
+          <i>→</i>
+          <div><strong>VALHALLA</strong><span>ecossistema</span></div>
+          <i>→</i>
+          <div><strong>ODIN</strong><span>CRM</span></div>
+        </div>
+
+        <p class="planned-label">Componentes planejados e em desenvolvimento</p><div class="ecosystem-components" aria-label="Componentes do ecossistema Valhalla">
+          <div class="ecosystem-component"><strong>HEIMDALL</strong><span>Automações e integrações</span></div>
+          <div class="ecosystem-component"><strong>BRAGI</strong><span>Comunicação e atendimento</span></div>
+          <div class="ecosystem-component"><strong>MIMIR</strong><span>Analytics e inteligência</span></div>
+          <div class="ecosystem-component"><strong>FORSETI</strong><span>Conhecimento empresarial</span></div>
+          <div class="ecosystem-component"><strong>FREYR</strong><span>Operações e serviços</span></div>
+          <div class="ecosystem-component"><strong>YGGDRASIL</strong><span>Plataforma multiempresa</span></div>
+          <div class="ecosystem-component"><strong>HUGINN</strong><span>Agente operacional</span></div>
+          <div class="ecosystem-component"><strong>GNÁ</strong><span>Inteligência comercial</span></div>
+          <div class="ecosystem-component"><strong>FRIGG</strong><span>Governança e orquestração</span></div>
+        </div>
+      </div>
+
+      <article class="odin">
+        <div class="odin-top"><span>PRIMEIRO PRODUTO COMERCIAL</span><span class="status-live">● em produção</span></div>
+        <h3>ODIN CRM</h3>
+        <p>Um CRM orientado à clareza operacional: clientes, oportunidades, pipeline, atividades, governança e rastreabilidade reunidos em uma base coerente.</p>
+        <div class="tags"><span>Multi-tenant</span><span>RBAC</span><span>Pipeline</span><span>Auditoria</span></div>
+      </article>
     </section>
 
     <section class="section" id="processo"><div class="section-heading"><div class="section-label">COMO TRABALHAMOS</div><h2>Diagnosticar antes de vender.</h2></div><div class="process"><article><span>01</span><h3>Diagnóstico</h3><p>Entendemos como a operação funciona hoje e onde a complexidade realmente aparece.</p></article><article><span>02</span><h3>Direção</h3><p>Definimos o que precisa mudar, o que deve permanecer e qual é o menor caminho seguro.</p></article><article><span>03</span><h3>Construção</h3><p>Desenvolvemos a solução com qualidade técnica, clareza visual e foco no uso real.</p></article><article><span>04</span><h3>Evolução</h3><p>Medimos, aprendemos e melhoramos sem transformar o produto em um conjunto de excessos.</p></article></div></section>
 
-    <section class="section statement"><p class="section-label">FORÇA FLUIDA</p><blockquote>“Entendemos antes de construir, simplificamos sem perder profundidade técnica e evoluímos com base em uso real.”</blockquote><img src="assets/nalyvon-symbol.png" alt=""></section>
+    <section class="section statement" id="forca-fluida"><p class="section-label">FORÇA FLUIDA</p><blockquote>“Entendemos antes de construir, simplificamos sem perder profundidade técnica e evoluímos com base em uso real.”</blockquote><img src="assets/brand/symbol.png" alt="" aria-hidden="true" loading="lazy"></section>
 
-    <section class="section contact" id="contato"><div><div class="section-label">PRÓXIMO PASSO</div><h2>Tem um problema operacional que está custando clareza, tempo ou controle?</h2></div><div><p>O primeiro passo não é uma proposta pronta. É entender o contexto, a operação atual e o que realmente precisa mudar.</p><button class="button button-primary" disabled>Canal comercial em preparação</button><small>O contato oficial será conectado antes da publicação pública.</small></div></section>
+    <section class="section contact" id="contato"><div><div class="section-label">PRÓXIMO PASSO</div><h2>Tem um problema operacional que está custando clareza, tempo ou controle?</h2></div><div><p>O primeiro passo não é uma proposta pronta. É entender o contexto, a operação atual e o que realmente precisa mudar.</p><button class="button button-primary" disabled>Canal comercial em preparação</button><small>Nosso canal oficial de contato estará disponível em breve.</small></div></section>
   </main>
-  <footer><a class="brand" href="#inicio"><img src="assets/nalyvon-symbol.png" alt=""><span>NALYVON</span></a><p>Soluções empresariais simples. Tecnologia com profundidade.</p><p>© 2026 Nalyvon.</p></footer>
+  <footer><a class="brand" href="#inicio" aria-label="Nalyvon, início"><img class="brand-lockup" src="assets/brand/lockup.png" width="1480" height="320" alt="Nalyvon"></a><p>Soluções empresariais simples. Tecnologia com profundidade.</p><p>© 2026 Nalyvon.</p></footer>
+<script src="site.js" defer></script>
 </body>
 </html>
