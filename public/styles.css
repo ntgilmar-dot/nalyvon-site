@@ -56,7 +56,7 @@ a:focus-visible,button:focus-visible {
   top:12px
 }
 
-.topbar,.hero,.section,footer {
+.topbar,.section,footer {
   width:min(1180px,calc(100% - 64px));
   margin-inline:auto
 }
@@ -108,12 +108,17 @@ a:focus-visible,button:focus-visible {
 }
 
 .hero {
+  width:100%;
+  margin:0;
   display:grid;
   grid-template-columns:1.15fr .85fr;
   gap:32px;
   align-items:center;
   min-height:700px;
-  padding:100px 0 96px
+  padding-top:100px;
+  padding-bottom:96px;
+  padding-left:max(32px,calc((100vw - 1180px) / 2));
+  padding-right:max(32px,calc((100vw - 1180px) / 2))
 }
 
 .hero-copy {
@@ -160,13 +165,29 @@ h1 span {
 .hero-mark {
   display:grid;
   place-items:center;
-  min-width:0
+  min-width:0;
+  padding:24px 12px 36px;
+  overflow:visible
 }
 
 .hero-mark img {
-  width:100%;
+  display:block;
+  width:96%;
   max-width:460px;
+  height:auto;
+  object-fit:contain;
   mix-blend-mode:screen;
+  overflow:visible;
+  animation:nalyvon-float 7s ease-in-out infinite
+}
+
+@keyframes nalyvon-float {
+  0%,100% {
+    transform:translateY(0)
+  }
+  50% {
+    transform:translateY(-8px)
+  }
 }
 
 .hero-actions {
@@ -580,7 +601,8 @@ footer .brand-lockup {
 @media(max-width:800px) {
   .hero {
     grid-template-columns:1fr;
-    padding:65px 0 72px;
+    padding-top:65px;
+    padding-bottom:72px;
     gap:48px
   }
 
@@ -643,7 +665,7 @@ footer .brand-lockup {
 }
 
 @media(max-width:480px) {
-  .topbar,.hero,.section,footer {
+  .topbar,.section,footer {
     width:calc(100% - 40px)
   }
 
@@ -668,6 +690,9 @@ footer .brand-lockup {
   }
 
   .hero {
+    width:100%;
+    padding-left:20px;
+    padding-right:20px;
     padding-top:45px;
     gap:38px
   }
@@ -795,6 +820,10 @@ footer .brand-lockup {
 @media(prefers-reduced-motion:reduce) {
   html {
     scroll-behavior:auto
+  }
+
+  .hero-mark img {
+    animation:none
   }
 
 }
