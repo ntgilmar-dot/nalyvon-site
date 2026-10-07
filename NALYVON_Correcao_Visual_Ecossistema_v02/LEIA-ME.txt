@@ -1,0 +1,10 @@
+CORREÇÃO VISUAL NALYVON v0.2
+
+Substitua apenas index.html e styles.css na mesma pasta atualmente publicada pelo Render:
+NALYVON_Site_Institucional_v01/NALYVON_Site_Institucional_v01/
+
+Alterações:
+- corrige distorção do símbolo no cabeçalho (não força 34x34);
+- reposiciona a marca d'água da seção Força Fluida, especialmente no mobile;
+- ODIN CRM passa a indicar “em produção”;
+- adiciona os demais componentes definidos do Valhalla sem anunciá-los como produtos já disponíveis.
