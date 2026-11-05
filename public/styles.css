@@ -505,11 +505,6 @@ h3 {
   align-items:center
 }
 
-.contact button {
-  opacity:.7;
-  cursor:default
-}
-
 .contact small {
   display:block;
   font-size:12px;
@@ -831,3 +826,9 @@ footer .brand-lockup {
 .brand-lockup {
   mix-blend-mode:screen
 }
+
+/* Espaçamento dos links das demonstrações e cabeçalho em telas estreitas. */
+.cards .button { margin-top:20px; max-width:100%; }
+#demonstracoes p + p { margin-top:16px; }
+#demonstracoes p a { text-decoration:underline; text-underline-offset:3px; }
+@media(max-width:360px) { .topbar .brand-lockup { width:155px; } }

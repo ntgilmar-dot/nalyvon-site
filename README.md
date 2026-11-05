@@ -16,7 +16,7 @@ Limitação da fonte: o símbolo raster original já toca a borda inferior. Não
 
 ## Conteúdo
 
-Nalyvon é a empresa, Valhalla é o ecossistema e ODIN CRM é o primeiro produto comercial, em produção conforme a correção anterior. Os demais componentes são planejados/em desenvolvimento. Nenhum contato comercial confirmado foi fornecido.
+Nalyvon é a empresa, Valhalla é o ecossistema e ODIN CRM é um projeto em desenvolvimento, sem oferta comercial disponível. Os demais componentes são planejados/em desenvolvimento. Contato comercial oficial: +55 11 98980-4693. Sites institucionais são a oferta principal; Beauty é somente demonstração. Valores comerciais ficam nos materiais internos, sujeitos à aprovação.
 
 ## Histórico
 
